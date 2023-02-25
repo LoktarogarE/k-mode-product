@@ -76,9 +76,8 @@ def einsum_torch(U, X, args):  # args is string
 # -----------------------------#
 # method 5  tensorly
 # -----------------------------#
-def tensorly_mode_dot(
-    U, X, mode
-):  # different from other methods, tensorly mode begin from 0, not 1.
+def tensorly_mode_dot(U, X, mode):  
+    # different from other methods, tensorly mode begin from 0, not 1.
     return tl.tenalg.mode_dot(X, U, mode=0)  # mode 0 => 1mode product
 
 
