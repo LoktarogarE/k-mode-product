@@ -1,2 +1,2 @@
 # k-mode-product
-  provide some feasible way to solve k-mode product.
+  provide some feasible ways to solve k-mode product.
